@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.star-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white, 0 0 20px white;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh) translateX(-50vw);
+    }
+}
+
+h1{ color:aqua}
+
+p { font-size: 25px;
+    line-height: 1.6;
+    text-align: justify; 
+    margin: 30px 0; 
+    color: violet; 
+}
+
+footer img{
+
+width: 40px;
+height: 40px;
+}
+
